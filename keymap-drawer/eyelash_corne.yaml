@@ -1,5 +1,5 @@
 layers:
-  COLEMAK:
+  CMK DH:
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -21,7 +21,7 @@ layers:
   - G
   - PREVIOUS
   - PLAY PAUSE
-  - NEXT
+  - $$mdi:skip-next$$
   - M
   - N
   - E
@@ -34,7 +34,7 @@ layers:
   - C
   - D
   - V
-  - PLAY PAUSE
+  - RGB TOG
   - $$mdi:volume-low$$
   - K
   - H
