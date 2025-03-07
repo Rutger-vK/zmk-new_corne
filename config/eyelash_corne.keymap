@@ -68,9 +68,9 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&kp ESCAPE      &kp GRAVE  &kp TILDE        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9                    &trans             &kp PLUS      &kp AT_SIGN     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp CARET        &kp DOLLAR
-&bt BT_CLR_ALL  &trans     &kp PERIOD       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6           &trans   &trans   &trans    &kp KP_MINUS  &kp UNDERSCORE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp HASH         &kp AMPERSAND
-&bt BT_NXT      &trans     &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3   &trans           &trans             &kp ASTERISK  &kp KP_EQUAL    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &kp PERCENT
+&kp ESCAPE      &kp GRAVE  &kp TILDE        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9                    &trans             &kp PLUS      &kp AT_SIGN     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp CARET        &kp DOLLAR
+&bt BT_CLR_ALL  &trans     &kp PERIOD       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6           &trans   &trans   &trans    &kp KP_MINUS  &kp UNDERSCORE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp HASH         &kp AMPERSAND
+&bt BT_NXT      &trans     &kp KP_NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &trans           &trans             &kp ASTERISK  &kp KP_EQUAL    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &kp PERCENT
                                             &kp LEFT_GUI     &trans           &trans                                                &trans        &trans          &trans
             >;
             sensor-bindings = <&scroll_encoder>;
